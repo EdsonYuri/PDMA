@@ -1,0 +1,51 @@
+@media screen and (max-width: 1000px) {
+    #lateral_navigation {
+        display: none;
+    }
+
+    #main_notice {
+        width: 100%;
+    }
+
+    .primary_bar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .candidate {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .project {
+        margin: 0;
+    }
+
+    .user_image {
+        width: 190px;
+        height: 190px;
+    }
+
+    #main_notice h1 {
+        font-size: 1.6em;
+    }
+
+    .button_header {
+        display: none;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .primary_navigation li {
+        padding: 13px;
+    }
+
+    .social_midia{
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 236, 236)
+}
+
+.cabeçalho {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(189, 238, 235);
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    width: 500px;
+    padding: 20px 0;
+    margin-left: 20px;
+    float: left;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.button_header {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.elementos_header {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.cabeçalho a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.primary_navigation li {
+    padding: 20px;
+    display: inline-block;
+}
+
+
+.primary_navigation a {
+    text-decoration: none;
+}
+
+.primary_navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.list_element {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.content {
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.social_midia {
+    margin-right: 30px;
+    display: flex;
+    min-width: 200px;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+}
+
+#main_notice {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    padding: 10px;
+}
+
+#main_notice h1{
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+}
+
+#secondary_content {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+
+#lateral_navigation {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 100px;
+    padding: 10px;
+}
+
+.main_content {
+    display: flex;
+}
+
+.imagem {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#img_1 {
+    border-radius: 20px;
+}
+
+.section {
+    width: 320px;
+    height: auto;
+    background-color: rgb(199, 199, 199);
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.project_area {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.project{
+    margin: 20px 30px 30px 30px;
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+}
+
+.section_image {
+    width: 100%;
+}
+
+.primary_bar {
+    width: 100%;
+    display: flex;
+}
+
+
+.candidate {
+    background-color: green;
+    width: 50%;
+    height: 420px;
+    padding: 20px;
+    position: left;
+    display: table;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.teste {
+    float: right;
+}
+
+.user_image {
+    width: 180px;
+}
+
+.info_candidate {
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+.notice_area{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.noticia_principal{
+    width: 600px;
+    height: 350px;
+    background-color: red;
+}
+
+.noticia_secundaria{
+    width: 500px;
+    height: 350px;
+    background-color: green;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.noticia{
+    width: 220px;
+    height: 350px;
+    background-color: green;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 35px;
+    font-family: Gill Sans, sans-serif;
+    background-color: rgb(245, 245, 245);
+    padding: 5px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.list_element a{
+    text-decoration: none;
+    color: black;
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.list_element a:hover{
+    text-decoration: none;
+    transition: 500ms;
+}
+.list_element a{
+    font-size: 17px;
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+    transition: 500ms;
+}
+
+.section:hover{
+    background-color: aqua;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li:hover{
+    background-color: rgb(199, 199, 199);
+    transition: 500ms;
+}
+li{
+    transition: 500ms;
+}
