@@ -108,7 +108,7 @@ ul {
     padding: 10px;
 }
 
-#main_notice h1{
+#main_notice h1 {
     font-family: "trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -141,7 +141,7 @@ ul {
 .section {
     width: 320px;
     height: auto;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(231, 231, 231);
     border-radius: 20px;
     padding: 10px;
     box-sizing: border-box;
@@ -153,9 +153,8 @@ ul {
     text-align: center;
 }
 
-.project{
+.project {
     margin: 20px 30px 30px 30px;
-    font-family: "trebuchet MS", Helvetica, sans-serif;
 }
 
 .section_image {
@@ -167,17 +166,17 @@ ul {
     display: flex;
 }
 
-
 .candidate {
     background-color: green;
     width: 50%;
-    height: 420px;
+    height: 500px;
     padding: 20px;
     position: left;
     display: table;
     margin-bottom: 10px;
     box-sizing: border-box;
     margin: 5px;
+    font-family: Times New Roman, serif;
 }
 
 .teste {
@@ -185,7 +184,7 @@ ul {
 }
 
 .user_image {
-    width: 180px;
+    width: 150px;
 }
 
 .info_candidate {
@@ -194,37 +193,48 @@ ul {
     padding: 10px;
 }
 
-.notice_area{
-    background-color: aqua;
+.notice_area {
+    background-color: rgb(224, 224, 224);
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    width: auto;
 }
 
-.noticia_principal{
-    width: 600px;
-    height: 350px;
-    background-color: red;
+.notices {
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
-.noticia_secundaria{
-    width: 500px;
+.noticia_principal {
+    width: 60%;
     height: 350px;
-    background-color: green;
+    background-image: url("https://s2.glbimg.com/b4gSjlxE9LHCXEZDTfwc9Fgahqk=/0x0:3264x1468/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/v/O/vKOYRuSRi1VTcnqAnkbw/avore-gigante.jpg");
+    position: relative;
+}
+
+.noticia_secundaria {
+    width: 38%;
+    height: 350px;
+    box-sizing: border-box;
+    background-image: url('https://s2.glbimg.com/MXuC7eq0UQ2Geyj2MCx4XRd4VjU=/0x0:1626x1080/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/p/T/WqXps6Tzahdq0R9VnyeA/captura-de-tela-2022-10-09-as-18.21.17.png');
+    background-position: center;
+    position: relative;
+}
+
+.noticia {
+    margin: 4px;
+    background-color: aliceblue;
+    width: 240px;
+    height: 360px;
     padding: 10px;
     box-sizing: border-box;
-    margin: 0 auto;
 }
 
-.noticia{
-    width: 220px;
-    height: 350px;
-    background-color: green;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.title{
+.title {
     font-size: 35px;
     font-family: Gill Sans, sans-serif;
     background-color: rgb(245, 245, 245);
@@ -233,39 +243,141 @@ ul {
     border-bottom: 1px solid black;
 }
 
-.list_element a{
+.list_element a {
     text-decoration: none;
     color: black;
     font-family: "trebuchet MS", Helvetica, sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
+    color: black;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
-.list_element a:hover{
+
+.list_element a:hover {
     text-decoration: none;
     transition: 500ms;
 }
-.list_element a{
+
+.list_element a {
     font-size: 17px;
     font-family: "trebuchet MS", Helvetica, sans-serif;
     transition: 500ms;
 }
 
-.section:hover{
-    background-color: aqua;
+.section:hover {
+    background-color: rgb(207, 207, 207);
     cursor: pointer;
     text-decoration: underline;
 }
 
-li:hover{
+li:hover {
     background-color: rgb(199, 199, 199);
     transition: 500ms;
 }
-li{
+
+li {
     transition: 500ms;
+}
+
+
+footer {
+    width: 100%;
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px;
+    position: absolute;
+}
+
+.previa_noticia {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.486);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.texto_previo {
+    font-family: Roboto, system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    padding: 10px;
+}
+
+.paragrafo_previo {
+    display: none;
+    font-family: Roboto, system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.noticia_principal:hover .paragrafo_previo {
+    display: block;
+}
+
+.biografia_area {
+    padding: 10px;
+}
+
+.midia {
+    width: 600px;
+    height: 330px;
+    float: left;
+    margin: 0 10px 10px 0;
+    display: flex;
+}
+
+.biografia_area h3 {
+    font-family: Roboto, system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    color: #404040;
+    font-size: 1.65em;
+    padding: 10px 0px;
+}
+
+.style_paragrafo {
+    font-family: Roboto, system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    color: #404040;
+    font-size: 1.20em;
+}
+
+.paragrafo_noticia {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+.titulo_noticia{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.28em;
+}
+
+.title_style {
+    font-family: Roboto, system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    color: #404040;
+    font-size: 1.65em;
+    padding: 10px 0px;
+}
+
+h1{
+    font-family: Roboto, system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    padding: 0px 0px 10px 0px;
+}
+
+.fala_candidato{
+    font-family: Roboto, system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1em;
+}
+
+.social_midia_footer{
+    margin-right: 30px;
+    display: flex;
+    min-width: auto;
+    position: relative;
+    right: 0px;
+    margin: 0px 50px;
+    display: none;
 }

@@ -40,12 +40,47 @@
     }
 
     .primary_navigation li {
-        padding: 13px;
+        padding: 20px;
     }
 
     .social_midia{
         display: none;
     }
+    
+}
 
+@media screen and (max-width: 700px){
+    .noticia_secundaria{
+        width: 100%;
+    }
 
+    .noticia_principal{
+        width: 100%;
+    }
+
+    .noticia{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .notice_area{
+        display: flex;
+        justify-content:center;
+    }
+
+    .midia{
+        width: 100%;
+    }
+
+    .social_midia_footer{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .noticia_principal{
+        background-repeat: no-repeat;
+        background-position: left;
+    }
 }
